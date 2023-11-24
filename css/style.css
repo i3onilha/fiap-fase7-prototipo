@@ -2709,6 +2709,10 @@ textarea.form-control {
   background: #222222;
 }
 
+iframe {
+  margin-top: 7rem;
+}
+
 /* RESPONSIVIDADE MOBILE */
 
 @media (min-width: 576px) {
@@ -2732,7 +2736,7 @@ textarea.form-control {
     max-width: 960px;
   }
   .column {
-    max-width: 25%;
+    max-width: 20%;
   }
 }
 @media (min-width: 1200px) {
@@ -2784,7 +2788,7 @@ textarea:focus {
 
 label {
   margin-bottom: 0.5rem;
-  color: #84868f;
+  color: white;
 }
 
 textarea {
